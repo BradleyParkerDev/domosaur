@@ -11,6 +11,9 @@ hiddenImage.style.display = "none";
 let firstImage = document.querySelector('img#triceratops');
 firstImage.style.width = "324px";
 
+
+
+
 // Event Listener Challenges
 messWithMe.addEventListener('click', function(){
     messWithMe.style.color = "orange";
@@ -29,5 +32,16 @@ let row = document.querySelector('section#row');
 let button = document.querySelector('button#toggle');
 
 button.addEventListener('click', function(){
+
     row.style.background = "purple";
+
+
+});
+
+let biggify = document.querySelector('img#biggify');
+biggify.addEventListener('mouseover', function(){
+    biggify.style.width = "200px";
+});
+biggify.addEventListener('mouseout', function(){
+    biggify.style.width = "162px";
 });

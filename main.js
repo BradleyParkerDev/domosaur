@@ -2,16 +2,19 @@
 // Warmup Challanges
 ////////////////////////////////////////////////
 
-
+// <span> font size changed
 let messWithMe = document.querySelector('span.mess-with-me');
 messWithMe.style.fontSize = "40px";
 
+// <p> background changed to green
 let pMessWithMe = document.querySelector('p.mess-with-me');
 pMessWithMe.style.background = "green";
 
+// Hides image
 let hiddenImage = document.querySelector('img#hide-me');
 hiddenImage.style.display = "none"; 
 
+// Changes image width
 let firstImage = document.querySelector('img#triceratops');
 firstImage.style.width = "324px";
 

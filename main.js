@@ -32,7 +32,13 @@ let row = document.querySelector('section#row');
 let button = document.querySelector('button#toggle');
 
 button.addEventListener('click', function(){
-    row.style.background = "purple";
+    if(row.style.background === ""){
+        row.style.background = "purple";
+    }
+    else if(row.style.background !== ""){
+        row.style.background = "";
+    }
+
 });
 
 let biggify = document.querySelector('img#biggify');
